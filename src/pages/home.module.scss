@@ -1,1 +1,54 @@
-// TODO
+.posts {
+  max-width: 720px;
+  margin: 2rem auto;
+
+  a {
+    display: block;
+
+    & + a {
+      margin-top: 2.25rem;
+    }
+
+    strong {
+      display: block;
+      font-size: 1.75rem;
+      line-height: 2rem;
+    }
+
+    span {
+      display: block;
+      font-size: 1.125rem;
+      color: var(--gray-100);
+      line-height: 2rem;
+      padding-bottom: 1rem;
+    }
+
+    small {
+      color: var(--gray-500);
+      display: inline-flex;
+      align-items: center;
+      font-size: 0.875rem;
+
+      & + small {
+        margin-left: 1rem;
+      }
+
+      svg {
+        margin-right: 0.35rem;
+      }
+    }
+  }
+}
+
+.loadMore {
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 1rem 0;
+
+  button {
+    font: 600 1.125rem "Inter";
+    color: var(--pink);
+    background: none;
+    border: none;
+  }
+}

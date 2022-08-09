@@ -1,1 +1,13 @@
-// TODO
+.header {
+  max-width: 720px;
+  margin: 2rem auto;
+
+  .img {
+    cursor: pointer;
+    transition: filter 0.3s;
+
+    &:hover {
+      filter: brightness(0.8);
+    }
+  }
+}

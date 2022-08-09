@@ -1,5 +1,3 @@
-
-
 import { render, screen, fireEvent, waitFor } from '@testing-library/react';
 import { GetStaticPropsContext } from 'next';
 import { ParsedUrlQuery } from 'querystring';
@@ -36,7 +34,7 @@ const mockedGetByTypeReturn = {
   results: [
     {
       uid: 'como-utilizar-hooks',
-      first_publication_date: '2021-03-15T19:25:28+0000',
+      first_publication_date: '2022-08-04T19:25:28+0000',
       data: {
         title: 'Como utilizar Hooks',
         subtitle: 'Pensando em sincronização em vez de ciclos de vida',
@@ -45,7 +43,7 @@ const mockedGetByTypeReturn = {
     },
     {
       uid: 'criando-um-app-cra-do-zero',
-      first_publication_date: '2021-03-25T19:27:35+0000',
+      first_publication_date: '2022-08-04T19:25:28+0000',
       data: {
         title: 'Criando um app CRA do zero',
         subtitle:
@@ -135,14 +133,14 @@ describe('Home', () => {
 
     screen.getByText('Como utilizar Hooks');
     screen.getByText('Pensando em sincronização em vez de ciclos de vida');
-    screen.getByText('15 mar 2021');
+    screen.getAllByText('04 ago 2022');
     screen.getByText('Joseph Oliveira');
 
     screen.getByText('Criando um app CRA do zero');
     screen.getByText(
       'Tudo sobre como criar a sua primeira aplicação utilizando Create React App'
     );
-    screen.getByText('15 mar 2021');
+    screen.getAllByText('04 ago 2022');
     screen.getByText('Danilo Vieira');
   });
 
