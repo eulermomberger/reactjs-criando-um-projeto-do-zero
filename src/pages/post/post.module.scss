@@ -1,1 +1,47 @@
-// TODO
+.banner {
+  img {
+    width: 100%;
+    height: 25rem;
+  }
+}
+
+.postSection {
+  max-width: 720px;
+  margin: 3rem auto;
+
+  .postInfo {
+    padding-top: 1rem;
+
+    small {
+      color: var(--gray-500);
+      display: inline-flex;
+      align-items: center;
+      font-size: 0.875rem;
+
+      & + small {
+        margin-left: 1rem;
+      }
+
+      svg {
+        margin-right: 0.35rem;
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .postContent {
+    div {
+      padding: 3rem 0;
+      text-align: justify;
+      color: var(--gray-100);
+
+      ul {
+        padding-top: 1.25rem;
+
+        li {
+          padding-bottom: 1.25rem;
+        }
+      }
+    }
+  }
+}

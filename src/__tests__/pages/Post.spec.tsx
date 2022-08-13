@@ -61,8 +61,7 @@ const mockedGetByUIDReturn = {
     subtitle: 'Pensando em sincronização em vez de ciclos de vida',
     author: 'Joseph Oliveira',
     banner: {
-      url:
-        'https://images.prismic.io/criando-projeto-do-zero/95494d57-eee2-4adb-9883-befa9829abca_christopher-gower-m_HRfLhgABo-unsplash.jpg?auto=compress,format',
+      url: 'https://images.prismic.io/criando-projeto-do-zero/95494d57-eee2-4adb-9883-befa9829abca_christopher-gower-m_HRfLhgABo-unsplash.jpg?auto=compress,format',
     },
     content: [
       {
@@ -125,8 +124,7 @@ const mockedGetByUIDReturn = {
                   link_type: 'Media',
                   name: 'christopher-gower-m_HRfLhgABo-unsplash.jpg',
                   kind: 'image',
-                  url:
-                    'https://images.prismic.io/criando-projeto-do-zero/95494d57-eee2-4adb-9883-befa9829abca_christopher-gower-m_HRfLhgABo-unsplash.jpg?auto=compress,format',
+                  url: 'https://images.prismic.io/criando-projeto-do-zero/95494d57-eee2-4adb-9883-befa9829abca_christopher-gower-m_HRfLhgABo-unsplash.jpg?auto=compress,format',
                   size: '876817',
                   height: '2584',
                   width: '3882',
